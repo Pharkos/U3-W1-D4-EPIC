@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import fantasy from "../data/fantasy.json";
 
-const AllTheBooks = function () {
+const BookList = function () {
   console.log("fantasy", fantasy);
   return (
     <Container>
@@ -36,4 +36,4 @@ const AllTheBooks = function () {
   );
 };
 
-export default AllTheBooks;
+export default BookList;
